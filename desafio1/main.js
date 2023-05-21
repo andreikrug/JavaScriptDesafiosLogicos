@@ -12,3 +12,22 @@ function imparOuPar(num)
     
 }
 
+// Deixando esse desafio mais interessante recebendo um array e trabalhando com map
+const nums = [1, 2, 3, 4];
+
+let imparOuParComMap = nums.map((item) => {
+        if(item % 2 == 0)
+        {
+            return (`${item} é par`);
+        } else {
+            return(`${item} é impar`);
+        }
+    })
+
+
+
+
+
+
+
+
