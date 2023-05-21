@@ -33,7 +33,7 @@ const primeiroMenor = (arr) => {
 }
 
 let b = 0;
-const segundoMaior = (arr) => {
+const segundoMenor = (arr) => {
     
     for(let i = 0; i<arr.length; i++)
     {
@@ -48,7 +48,7 @@ const segundoMaior = (arr) => {
 }
 
 primeiroMenor(nums);
-segundoMaior(nums);
+segundoMenor(nums);
 
 console.log(a + b);
 
