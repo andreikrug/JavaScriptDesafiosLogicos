@@ -12,4 +12,3 @@ function imparOuPar(num)
     
 }
 
-imparOuPar(3);
