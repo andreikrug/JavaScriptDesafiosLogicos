@@ -26,6 +26,32 @@ let imparOuParComMap = nums.map((item) => {
 
 
 
+// Desafio 2: 
+let a = 0;
+const primeiroMenor = (arr) => {
+    a = Math.min(...arr);
+}
+
+let b = 0;
+const segundoMaior = (arr) => {
+    
+    for(let i = 0; i<arr.length; i++)
+    {
+       if(arr[i] != a){
+            b = arr[i];
+            break;
+       }
+       if(arr[i] < b && arr[i] != a){
+            b = arr[i];
+       }
+    }
+}
+
+primeiroMenor(nums);
+segundoMaior(nums);
+
+console.log(a + b);
+
 
 
 
